@@ -1,0 +1,8 @@
+{
+  "prompt": {
+    "text": "Your input prompt here"
+  },
+  "temperature": 0.7,
+  "maxOutputTokens": 256
+}
+
