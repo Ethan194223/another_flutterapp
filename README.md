@@ -14,3 +14,8 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+##this is the login page
+![Login page](assets/login_page.png)
+this is the main page, this page is saving the data, save the image and text
+![Login page](assets/main_page.png)
