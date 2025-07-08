@@ -39,7 +39,6 @@ Built as a personal learning project but ready to evolve into a full product.
 ## 🛠️ Tech Stack
 
 - **Flutter 3 / Dart 3** – single code-base for Android, iOS, Web & Desktop  
-- **Firebase** – Auth & Cloud Firestore (planned)  
 - **OpenAI Chat API** – conversational assistant  
 - **Google ML Kit** – on-device image classification  
 - **Google Maps SDK** – map and marker rendering  
