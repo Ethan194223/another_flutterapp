@@ -1,28 +1,61 @@
-# another_flutterapp
+# another_flutterapp 🐾
 
-A new Flutter project.
+A cross-platform Flutter app that helps users **save memories of animals** and **recognise different species** with on-device ML.  
+Built as a personal learning project but ready to evolve into a full product.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Key Features
 
-A few resources to get you started if this is your first Flutter project:
+| Feature | Description |
+|---------|-------------|
+| 🔐 **Secure login** | Email / third-party auth  |
+| 💾 **Main dashboard** | Stores photos & notes of spotted animals, tracks progress |
+| 🤖 **AI chatbot** | Powered by OpenAI Chat API for Q&A about animals |
+| 🗺️ **Map view** | Shows saved sightings using Google Maps API |
+| 📸 **Image recognition** | Google ML Kit classifies animals offline |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
 
-##this is the login page
+### 1 · Login
 ![Login page](assets/login_page.png)
-this is the main page, this page is saving the data, save the image and text
-![Login page](assets/main_page.png)
-this is the AI bot page, I using the chatAPI to make it running.
-![Login page](assets/Ai_chatbot.png)
-this is the Map  page, I using the google map api to make it run
-![Login page](assets/map_page.png)
-this is the image recognition   page, I using google ML kit
-![Login page](assets/image_recgonition.png)
 
+### 2 · Dashboard (Save & view data)
+![Main page](assets/main_page.png)
+
+### 3 · AI Chatbot
+![AI bot page](assets/Ai_chatbot.png)
+
+### 4 · Map
+![Map page](assets/map_page.png)
+
+### 5 · Image Recognition
+![Image recognition page](assets/image_recgonition.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter 3 / Dart 3** – single code-base for Android, iOS, Web & Desktop  
+- **Firebase** – Auth & Cloud Firestore (planned)  
+- **OpenAI Chat API** – conversational assistant  
+- **Google ML Kit** – on-device image classification  
+- **Google Maps SDK** – map and marker rendering  
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# 1. Clone
+git clone https://github.com/your-username/another_flutterapp.git
+cd another_flutterapp
+
+# 2. Install packages
+flutter pub get
+
+# 3. Run (pick one)
+flutter run               # default device
+flutter run -d chrome     # web
